@@ -13,4 +13,5 @@ Windows only.
 CMD file snippet:
 
  etc\DetectJavaVersion -q -r 17.0
+ 
  if errorlevel 1 ( explorer https://www.oracle.com/java/technologies/downloads/ && exit)
